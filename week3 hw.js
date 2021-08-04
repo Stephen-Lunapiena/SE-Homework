@@ -17,7 +17,7 @@ for (var i = 0; i < array.length; i++) {
       array2.push(i+1) //add the positions to the array
       found = true
     }
-    
+     
 }
 
 if (!found) {
