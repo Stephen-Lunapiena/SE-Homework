@@ -2,8 +2,8 @@
 var prompt = require('prompt-sync')()
 userin = prompt('Is this character a vowel? ')
 
-isCharacterAVowel = (userin) => { 
-    if (userin == 'a' || userin == 'e' || userin == 'i' || userin == 'o' || userin == 'u') {
+isCharacterAVowel = (i) => { 
+    if (i == 'a' || i == 'e' || i == 'i' || i == 'o' || i == 'u') {
     return true
 }
     else {
@@ -11,4 +11,4 @@ isCharacterAVowel = (userin) => {
     }
 }
 
-console.log(isCharacterAVowel(userin))
+console.log(isCharacterAVowel(i))
